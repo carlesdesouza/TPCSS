@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #44A01C;
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+}
+
+figcaption {
+    color: #B141A4;
+    font-size: 22px;
+}
+
+p span {
+    color: #FF4B4B;
+}
+
+p a {
+    color: #00A7FF;
+}
+
+ul li a {
+    color: #00A7FF;
+}
+
+section {
+    display: flex;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 25px;
+}
+
+table thead {
+    color: #FF4B4B;
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
