@@ -24,6 +24,10 @@ p a {
     color: #00A7FF;
 }
 
+ul li {
+    margin-top: 20px;
+}
+
 ul li a {
     color: #00A7FF;
 }
@@ -47,4 +51,23 @@ table thead {
 th, td {
     border: 1px solid black;
     padding: 5px 10px;
+}
+
+@media (max-width: 480px) {
+    section {
+        display: inline-block;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    table {
+        margin: 0 auto;
+    };
 }
